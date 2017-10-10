@@ -1,0 +1,9 @@
+在mock里面创建一个数据文件
+var app=express()
+var compiler=webpack(webpackConfig)
+var router=express.Router();
+var goodsList=require('../mock/goods.json');
+router.get("/goods",function(req,res,next){
+    res.json(goodsList);
+})
+app.use(router);
