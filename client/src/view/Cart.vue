@@ -134,6 +134,7 @@
         <a href="javascript:;" class="btn btn--m" @click="modalConfirm=false">关闭</a>
       </div>
     </modal>
+    <Footer/>
   </div>
 </template>
 <script>
